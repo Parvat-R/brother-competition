@@ -13,22 +13,58 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-size: 1.6em;
+    padding: .5em;
+}
+
+.schedule > * {
+    font-size: 1.1em;
+    padding: 2em;
+}
+
+.schedule h3 {
+    font-size: 2em;
+    color: blue;
+}
+
 .head {
     width: 100%;
-    height: 80vh;
-
-    background-color: dimgray;
+    height: 200px;
+    background-color: black;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-direction: column;
 }
 
 .details {
-    background-color: blue;
-    color: aqua;
+    background-color: white;
+    color: black;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em auto;
+    width: fit-content;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
 }
 
 .schedule {
-    background-color: darkmagenta;
-    color: white;
+    background-color: white;
+    color: black;
+    margin: auto;
+    width: fit-content;
+    padding: 2em;
+    display: flex;
+    align-items: center;
 }
 
 </style>
